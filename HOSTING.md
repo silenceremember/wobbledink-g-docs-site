@@ -15,7 +15,6 @@ Create the CNAME in the `2iqlabs.com` Cloudflare DNS zone with proxying disabled
 The browser API key in `picker-config.js` is restricted to Google Picker API and these website referrers:
 
 - `https://wobbledink-g-docs.2iqlabs.com/*`
-- `https://wobbledink-g-docs.pages.dev/*`
 - `https://docs.google.com/*`
 
 For Google ownership verification, add Google's TXT record to the root `2iqlabs.com` Cloudflare DNS zone and verify a Search Console Domain property. The Google Cloud project owner or editor must use the same Google account that verifies the domain.
