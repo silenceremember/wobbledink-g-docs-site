@@ -4,12 +4,6 @@
   Permissions-Policy: camera=(), microphone=(), geolocation=()
   X-Frame-Options: DENY
 
-/picker.html
+/picker*
   Cache-Control: no-store
   Content-Security-Policy: default-src 'none'; script-src 'self' https://apis.google.com; style-src 'self'; frame-src https://docs.google.com https://accounts.google.com; img-src data: https://*.googleusercontent.com; connect-src https://www.googleapis.com https://apis.google.com; base-uri 'none'; form-action 'none'
-
-/picker.js
-  Cache-Control: no-store
-
-/picker-config.js
-  Cache-Control: no-store
