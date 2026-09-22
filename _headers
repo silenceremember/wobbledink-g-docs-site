@@ -13,6 +13,3 @@
 
 /picker-config.js
   Cache-Control: no-store
-
-/*.html
-  Cache-Control: no-cache
