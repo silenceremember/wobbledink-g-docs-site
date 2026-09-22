@@ -1,0 +1,4 @@
+globalThis.WOBBLEDINK_PICKER_CONFIG=Object.freeze({
+  appId:'1021672448758',
+  developerKey:'REPLACE_WITH_RESTRICTED_GOOGLE_PICKER_API_KEY'
+});
