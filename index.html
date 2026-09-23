@@ -8,10 +8,10 @@
 <body>
 <h1>Wobbledink G-Docs</h1>
 <p>Terms and values from Google Sheets, displayed locally in Google Docs and Sheets.</p>
-<p>Choose one existing glossary spreadsheet with Google Picker or paste its direct Google Sheets link. The first two sheets contain term keys and definitions, and value keys and values, in columns A:B.</p>
+<p>Choose one existing glossary spreadsheet with Google Picker. If you paste a direct Google Sheets link, confirm that file in Picker before connecting. The first two sheets contain term keys and definitions, and value keys and values, in columns A:B.</p>
 <p>Use <code>[term]</code> and <code>{value}</code> markers. The extension displays matching labels and hover cards, including references inside definitions. Local display does not rewrite the stored Google Doc or replace markers in other spreadsheets.</p>
 <p>The extension can add and remove glossary entries and repair the selected spreadsheet's layout. Repair formats the first two sheets and removes columns outside A:B. These actions change only the selected glossary spreadsheet.</p>
-<p>Google Sheets access is used to read and maintain the glossary. Per-file Google Drive access is used only to let Google Picker grant the app access to a spreadsheet selected by the user. The extension does not request permission to edit Google Docs.</p>
+<p>The per-file <code>drive.file</code> permission lets the extension read and maintain only spreadsheets you select in Google Picker. The extension does not request permission to edit Google Docs.</p>
 <p><a href="/privacy">Privacy policy</a> · <a href="mailto:slcrmmbr@gmail.com">Support</a></p>
 </body>
 </html>
